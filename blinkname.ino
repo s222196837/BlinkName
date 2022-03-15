@@ -48,7 +48,7 @@ const int morse_code_table[26][5] = {
     { 'Z', dah, dah, di, dit  },
 };
 
-// write a dot (di or dit)
+// Write one Morse code element (i.e. a dah, a di or a dit)
 void output_morse_code(const int interval)
 {
     // To blink the LED, first we'll turn it on
